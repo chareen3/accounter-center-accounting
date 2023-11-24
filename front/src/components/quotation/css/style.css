@@ -1,0 +1,38 @@
+.stock-info-msg{
+    color: red;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.stock-info{
+    background: #ddfbff;
+    border-radius: 5px;
+    font-family: cursive;
+    padding-top: 9px;
+}
+.stock-info strong{
+    padding-top: 10px;
+}
+
+.stock-info p{
+    
+}
+
+.stock-info-purchaserate{
+    overflow: hidden;
+    background: #DDFBFF;
+    border-radius: 5px;
+}
+.stock-info-purchaserate input{
+    width: 100%;
+    text-align: center;
+    border: transparent;
+    background: #DDFBFF;
+    padding: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.stock-info-purchaserate input:focus{
+    border: transparent !important;
+    cursor: pointer;
+}

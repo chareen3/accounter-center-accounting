@@ -1,0 +1,77 @@
+.root {
+    flex-grow: 1
+  }
+  .invoice-section{
+      margin:0px auto
+  }
+  .invoice-title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+  }
+  .invoice-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size:13px
+  }
+  .invoice-table td{
+    padding: 3px;
+    border: 1px solid #ccc;
+  }
+  .invoice-table thead{
+    font-weight: bold
+  }
+
+  .invoice-head{
+ 
+  }
+  .invoice-logo{
+    float: left;
+    padding-left: 5%;
+  }
+  .invoice-logo{
+  
+  }
+  .invoice-desc{
+    float: left;
+    padding-left: 5%;
+  }
+  .invoice-desc h2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .invoice-desc p{
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .invoice-footer {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .invoice-footer-bottom{
+    width: 100%;
+    overflow: hidden;
+  }
+  .print-source {
+    display: none;
+  }
+  
+  body > .print-source {
+    display: block !important
+  }
+  
+  @media print {
+    .print-source {
+      display: block;
+      /* background-color: green; */
+    }
+  }

@@ -1,0 +1,31 @@
+.print-source {
+    display: none;
+}
+
+.print-no {
+    display: block !important
+}
+
+
+.report-dom tr:nth-child(even) {
+  background: #ffffff;
+}
+
+.report-dom tr:nth-child(odd) {
+  background: #fbfbfb;
+}
+  
+  /* body > .print-source {
+    display: block !important
+  } */
+  
+  @media print {
+    .print-no {
+        display: none !important
+    }
+
+    .print-source {
+      display: block;
+      /* background-color: green; */
+    }
+  }
